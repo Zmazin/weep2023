@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact|WEEP website</title>
+    <meta
+      name="description"
+      content="Weep Tokyo HP Contact"
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/webclipicon -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+
+    <!-- ogp -->
+		<meta property="og:site_name" content="WEEP" />
+		<meta property="og:url" content="サイトのURL" />
+		<meta property="og:type" content="contact form" />
+		<meta property="og:title" content="Weep Tokyo HP Contact" />
+		<meta
+			property="og:description"
+			content="Weep Tokyo HP Contact"
+		/>
+		<meta property="og:image" content="URL" />
+		<meta property="og:locale" content="ja_JP" />
+		<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@WEEP2022" />
+		<meta
+			name="twitter:description"
+			content="Weep Tokyo HP Contact"
+		/>
+		<meta name="twitter:image:src" content="https://twitter.com/WEEP2022" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.cdnfonts.com/css/a-dripping-marker" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body class="js_body">
+    <header class="l_header">
+      <h1 class="l_header-logo">
+        <a href="index.html" class="">WEEP</a>
+      </h1>
+      <nav class="l_header-nav js_navigation">
+        <ul class="l_header-nav_list">
+          <li class="l_header-nav_item">
+            <a href="index.html" class="l_header-nav_link">TOP</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="showcase.html" class="l_header-nav_link">SHOWCASE</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#news" class="l_header-nav_link">NEWS</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#about" class="l_header-nav_link">ABOUT</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="contact.html" class="l_header-nav_link">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+      </button>
+    </header>
+
+    <main class="l_main">
+      <div class="m_kv">
+        <div class="m_kv-inner l_container-lg">
+          <div class="m_kv-box">
+            <h1 class="m_kv-title">CONTACT</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="l_contents">
+        <div class="l_container-sm">
+          <form action="" class="contact_form">
+            <dl class="contact_form_list">
+              <dt class="contact_form_heading">
+                Your Name<span class="contact_form_example">ex. Dimebag Darrell</span>
+                <span class="contact_form_required">*</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="text" class="contact_form_input" />
+              </dd>
+              <dt class="contact_form_heading">
+                Phone Number<span class="contact_form_example">ex. 090-0000-0000</span>
+                <span class="contact_form_required">*</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="tel" class="contact_form_input" />
+              </dd>
+              <dt class="contact_form_heading">
+                E-mail Address<span class="contact_form_example">ex. info@weep.com</span>
+                <span class="contact_form_required">*</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <input type="email" class="contact_form_input" />
+              </dd>
+              <dt class="contact_form_heading">
+                Subject
+                <span class="contact_form_required">*</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <ul class="contact_form_radio-list">
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="1"
+                      class="contact_form_radio"
+                      checked
+                    /><label for="1" class="contact_form_label">Message of support</label>
+                  </li>
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="2"
+                      class="contact_form_radio"
+                    /><label for="2" class="contact_form_label">Request</label>
+                  </li>
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="3"
+                      class="contact_form_radio"
+                    /><label for="3" class="contact_form_label">Booking</label>
+                  </li>
+                  <li class="contact_form_radio-item">
+                    <input
+                      type="radio"
+                      name="content"
+                      value=""
+                      id="4"
+                      class="contact_form_radio"
+                    /><label for="4" class="contact_form_label">Offer</label>
+                  </li>
+                </ul>
+              </dd>
+              <dt class="contact_form_heading">
+                Content of inquiry for us
+                <span class="contact_form_required">*</span>
+              </dt>
+              <dd class="contact_form_detail">
+                <textarea class="contact_form_textarea"
+                  placeholder="	Please use line breaks accordingly when entering a long message."></textarea>
+              </dd>
+            </dl>
+            <div class="form_checkbox-item">
+              <input type="checkbox" name="privacy Policy" value=""
+                id="privacy Policy" class="form_checkbox" />
+                <label for="privacy Policy" class="form_label">I agree to the <a href="privacy-policly.html" class="checkbox_link">privacy policy.</a></label>
+            </div>
+            <div class="contact_form_btn-wrapper">
+              <div class="m_btn__form">
+                <input
+                  type="submit"
+                  class="m_btn_input"
+                  value="SEND"/>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="l_footer">
+      <div class="l_footer_contents">
+        <p class="l_footer_logo">WEEP</p>
+        <ul class="l_footer_list">
+          <li class="l_footer_item">
+            <a href="index.html" class="l_footer_link">TOP</a>
+          </li>
+          <li class="l_footer_item">
+            <a href="act on specified commercial transactions.html" class="l_footer_link">Act on specified commercial transactions</a>
+          </li>
+          <li class="l_footer_item">
+            <a href="contact.html" class="l_footer_link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="l_footer-icon">
+        <ul class="l_footer-icon_list">
+          <li class="l_footer_icon_item">
+            <a href="" class="l_footer_icon_link"><img src="img/img_footer-facebook.webp" width="70" height="70" alt="" class="img_icon"></a>
+          </li>
+          <li class="l_footer_icon_item">
+            <a href="" class="l_footer_icon_link"><img src="img/img_footer-instagram.webp" width="70" height="70" alt="" class="img_icon"></a>
+          </li>
+          <li class="l_footer_icon_item">
+            <a href="https://twitter.com/WEEP2022" class="l_footer_icon_link"><img src="img/img_footer-twitter.webp" width="70" height="70" alt="" class="img_icon"></a>
+          </li>
+          <li class="l_footer_icon_item">
+            <a href="https://www.youtube.com/@rairoarecords9920" class="l_footer_icon_link"><img src="img/img_footer-youtube.webp" width="70" height="70" alt="" class="img_icon"></a>
+          </li>
+        </ul>
+      </div>
+      <p class="l_footer-copyright">
+        <small class="l_footer-copyright-txt">&copy; 2023 Uncertainty Records</small>
+      </p>
+    </footer>
+  </body>
+</html>
