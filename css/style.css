@@ -280,7 +280,7 @@ span {
 
 .m_opening_desc {
   color: var(--white-color);
-  font-family: "Monotype Corsiva";
+  font-family: "Monotype Corsiva", sans-serif;
   font-size: 32px;
   margin-top: 8px;
   line-height: 1;
@@ -513,7 +513,7 @@ span {
   margin-top: 16px;
   font-size: 20px;
   white-space: nowrap;
-  font-family: "Monotype Corsiva";
+  font-family: "Monotype Corsiva", sans-serif;
   text-shadow: #ffee00 0 0 15px;
   color: #ffee00d5;
 }
